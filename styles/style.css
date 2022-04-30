@@ -1,0 +1,44 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+#search_bar {
+  margin: 10px auto;
+}
+body > * {
+  width: 80%;
+  margin: auto;
+}
+#query {
+  width: 100%;
+  border: 1px solid teal;
+  border-radius: 20px;
+  height: 35px;
+  padding: 20px;
+  font-size: medium;
+  box-sizing: border-box;
+}
+
+#categories {
+  margin: 10px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+#categories > h3 {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+#container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  width: 80%;
+  margin: auto;
+}
+
+#selects {
+  display: flex;
+  gap: 50px;
+  margin-bottom: 20px;
+}
